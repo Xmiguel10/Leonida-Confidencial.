@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Leonida Confidencial · Secretos de GTA 6</title>
+<style>
+:root{--bg:#fff7fb;--card:#fff;--tx:#1d1530;--mut:#6b5f80;--ac:#e6007a;--ac2:#00a6b8;--bd:#eadff0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150d24;--card:#211436;--tx:#f5eefc;--mut:#b2a3c9;--ac:#ff3fa4;--ac2:#2fd6e8;--bd:#37264f}}
+:root[data-theme="dark"]{--bg:#150d24;--card:#211436;--tx:#f5eefc;--mut:#b2a3c9;--ac:#ff3fa4;--ac2:#2fd6e8;--bd:#37264f}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:2.5rem 1rem 1.5rem;text-align:center;background:linear-gradient(135deg,#ff3fa4,#ff9a3c 55%,#2fd6e8);color:#fff}
+header h1{margin:0;font-size:clamp(1.8rem,6vw,3rem);letter-spacing:.04em;text-transform:uppercase}
+header p{margin:.4rem auto 0;max-width:34rem}
+main{max-width:60rem;margin:0 auto;padding:1rem}
+.bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.5rem 0 1rem}
+input{flex:1 1 12rem;padding:.6rem .8rem;border:1px solid var(--bd);border-radius:.6rem;background:var(--card);color:var(--tx);font:inherit}
+button.f{padding:.4rem .8rem;border:1px solid var(--bd);border-radius:2rem;background:var(--card);color:var(--tx);cursor:pointer;font:inherit}
+button.f.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.prog{color:var(--mut);font-size:.9rem;margin-bottom:.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:.8rem;padding:1rem;display:flex;flex-direction:column;gap:.4rem}
+.c.done{opacity:.6}
+.c h3{margin:0;font-size:1.05rem}
+.tag{font-size:.75rem;color:var(--ac2);font-weight:700;text-transform:uppercase}
+.c p{margin:0;color:var(--mut);font-size:.93rem}
+.loc{font-size:.88rem}
+.st{font-size:.75rem;color:var(--mut)}
+label{display:flex;gap:.4rem;align-items:center;font-size:.88rem;margin-top:auto;cursor:pointer}
+h2{margin:2rem 0 .5rem}
+.note{background:var(--card);border-left:4px solid var(--ac);padding:.8rem 1rem;border-radius:.4rem;color:var(--mut);font-size:.92rem}
+ul.r{color:var(--mut)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:34rem;background:var(--card);border-radius:.6rem;font-size:.9rem}th,td{padding:.5rem .7rem;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}th{color:var(--ac2);font-size:.78rem;text-transform:uppercase}code{font-size:.85rem;word-break:break-word}.cl{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem;padding:0;list-style:none}.cl li{background:var(--card);border:1px solid var(--bd);border-radius:.8rem;padding:.8rem 1rem;color:var(--mut);font-size:.92rem}.cl b{color:var(--tx)}footer{text-align:center;color:var(--mut);font-size:.82rem;padding:2rem 1rem}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root:root{--bg:#0a0612;--card:rgba(255,255,255,.055);--tx:#f6f0fc;--mut:#ab9ec6;--ac:#ff3d9a;--ac2:#26e0ee;--bd:rgba(255,255,255,.11);--gold:#ffc766;--navbg:rgba(10,6,18,.82);--glow:0 10px 40px -12px rgba(255,61,154,.5)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#fbf6f1;--card:rgba(255,255,255,.8);--tx:#1b1130;--mut:#645878;--ac:#d6076f;--ac2:#007f8c;--bd:rgba(27,17,48,.12);--gold:#a85f00;--navbg:rgba(251,246,241,.88);--glow:0 10px 30px -14px rgba(214,7,111,.4)}}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 4rem);scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background-color:var(--bg);background-image:radial-gradient(60rem 30rem at 85% -5%,rgba(255,61,154,.16),transparent 60%),radial-gradient(50rem 30rem at -10% 25%,rgba(38,224,238,.1),transparent 60%);background-attachment:fixed}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--navbg)}
+.hero{position:relative;overflow:hidden;isolation:isolate;padding:clamp(3rem,9vw,6.5rem) 1.25rem clamp(5.5rem,13vw,9rem);text-align:center;background:linear-gradient(180deg,#12082a 0%,#2a0f4f 55%,#7a1f5f 100%);color:#fff}
+.hero .sun{position:absolute;left:50%;bottom:-34%;width:min(46rem,130vw);transform:translateX(-50%);opacity:.9;z-index:-1}
+.hero .pl{position:absolute;left:0;bottom:0;width:100%;height:42%;z-index:-1}
+.eb{display:inline-block;padding:.4rem 1rem;border:1px solid rgba(255,255,255,.28);border-radius:3rem;font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;background:rgba(255,255,255,.08);backdrop-filter:blur(6px)}
+.hero h1{font-family:Unbounded,Manrope,system-ui,sans-serif;font-weight:800;font-size:clamp(2.3rem,9vw,5.6rem);line-height:1;letter-spacing:-.03em;text-transform:none;margin:1.3rem 0 0}
+.hero h1 span{display:block;background:linear-gradient(90deg,#ffd166,#ff3d9a 48%,#26e0ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:36rem;margin:1.3rem auto 0;font-size:clamp(1rem,2.4vw,1.2rem);color:rgba(255,255,255,.85)}
+.cta{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:2rem}
+.cta a{padding:.9rem 1.6rem;border-radius:3rem;text-decoration:none;font-weight:800;color:#fff;border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(6px);transition:transform .2s}
+.cta a:hover{transform:translateY(-2px)}
+.cta a:first-child{background:linear-gradient(90deg,#ff3d9a,#ff7a45);border-color:transparent;box-shadow:0 12px 36px -10px rgba(255,61,154,.75)}
+.stats{display:flex;gap:clamp(1.2rem,5vw,3.2rem);justify-content:center;flex-wrap:wrap;margin-top:2.8rem;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.stats b{display:block;font-family:Unbounded,Manrope,sans-serif;font-size:1.8rem}
+.stats small{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+.nv{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;gap:.3rem;overflow-x:auto;justify-content:safe center;padding:.6rem 1rem;background:var(--navbg);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+.nv a{white-space:nowrap;padding:.45rem 1rem;border-radius:3rem;color:var(--mut);text-decoration:none;font-weight:700;font-size:.86rem;transition:.2s}
+.nv a:hover{color:var(--tx);background:var(--card)}
+main{max-width:68rem;padding:2rem 1.25rem 1rem;counter-reset:s}
+h2{counter-increment:s;display:flex;align-items:baseline;gap:.9rem;font-family:Unbounded,Manrope,system-ui,sans-serif;font-size:clamp(1.35rem,4vw,2rem);letter-spacing:-.02em;margin:4.2rem 0 1.3rem}
+main>h2:first-child{margin-top:1rem}
+h2::before{content:"0" counter(s);font-size:.78rem;color:var(--ac);letter-spacing:.2em;font-weight:500}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--bd),transparent)}
+.note{border:1px solid var(--bd);border-left:3px solid var(--gold);border-radius:1rem;backdrop-filter:blur(10px);padding:1rem 1.2rem;margin-bottom:1.2rem}
+input[type=search]{flex:1 1 14rem;padding:.85rem 1.2rem;border-radius:3rem;border:1px solid var(--bd);background:var(--card);color:var(--tx)}
+input[type=search]:focus{outline:2px solid var(--ac);outline-offset:2px}
+label input{flex:none;width:1.1rem;height:1.1rem;padding:0;accent-color:var(--ac)}
+button.f{padding:.5rem 1.05rem;border-radius:3rem;font-weight:700;background:var(--card);transition:.2s}
+button.f:hover{border-color:var(--ac)}
+button.f.on{background:linear-gradient(90deg,var(--ac),#ff7a45);border-color:transparent;color:#fff;box-shadow:var(--glow)}
+.grid{gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr))}
+.c{background:var(--card);border-radius:1.2rem;padding:1.3rem;gap:.55rem;backdrop-filter:blur(10px);transition:transform .25s,border-color .25s,box-shadow .25s;animation:up .6s both}
+.c:hover{transform:translateY(-5px);border-color:var(--ac);box-shadow:var(--glow)}
+.c.done{opacity:.5}
+.c h3{font-size:1.18rem;font-weight:800;letter-spacing:-.01em;line-height:1.25}
+.tag{align-self:flex-start;padding:.22rem .7rem;border-radius:3rem;background:linear-gradient(90deg,rgba(255,61,154,.2),rgba(38,224,238,.2));font-size:.66rem;letter-spacing:.14em}
+.c p.loc{color:var(--gold);font-weight:700}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+.tw{border:1px solid var(--bd);border-radius:1.2rem;background:var(--card);backdrop-filter:blur(10px)}
+table{background:transparent;border-radius:0;font-size:.93rem}
+th,td{padding:.8rem 1rem;border-bottom:1px solid var(--bd)}
+th{background:rgba(127,127,127,.1);letter-spacing:.12em}
+tr:last-child td{border-bottom:0}
+tr:hover td{background:rgba(127,127,127,.07)}
+code{padding:.2rem .55rem;border-radius:.5rem;background:rgba(255,61,154,.14);color:var(--ac);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:700;letter-spacing:.06em}
+.cl{gap:1.1rem}
+.cl li{border-radius:1.2rem;padding:1.1rem 1.25rem;background:var(--card);line-height:1.6;transition:transform .25s,border-color .25s}
+.cl li:hover{transform:translateY(-4px);border-color:var(--ac2)}
+.cl b{display:block;color:var(--ac2);font-family:Unbounded,Manrope,sans-serif;font-size:.85rem;margin-bottom:.35rem}
+footer{border-top:1px solid var(--bd);margin-top:4rem;padding:2.2rem 1rem}
+@media (prefers-reduced-motion:reduce){.c{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+<svg class="sun" viewBox="0 0 400 400" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd166"/><stop offset=".55" stop-color="#ff3d9a"/><stop offset="1" stop-color="#7a2cff"/></linearGradient><mask id="sm"><rect width="400" height="400" fill="#fff"/><rect y="232" width="400" height="8"/><rect y="264" width="400" height="12"/><rect y="298" width="400" height="16"/><rect y="336" width="400" height="20"/></mask></defs><circle cx="200" cy="200" r="190" fill="url(#sg)" mask="url(#sm)"/></svg>
+<svg class="pl" viewBox="0 0 1000 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><g id="p"><path d="M0 300Q14 190 -4 92" stroke="#07040d" stroke-width="9" fill="none"/><g fill="#07040d"><ellipse cx="-4" cy="92" rx="72" ry="9" transform="rotate(-28 -4 92)"/><ellipse cx="-4" cy="92" rx="72" ry="9" transform="rotate(24 -4 92)"/><ellipse cx="-4" cy="92" rx="60" ry="8" transform="rotate(-70 -4 92)"/><ellipse cx="-4" cy="92" rx="60" ry="8" transform="rotate(66 -4 92)"/><ellipse cx="-4" cy="92" rx="50" ry="7" transform="rotate(-2 -4 92)"/></g></g></defs><path d="M0 300V262Q250 238 500 258T1000 246V300Z" fill="#07040d"/><use href="#p" x="110"/><use href="#p" x="215" y="26" transform="scale(.8)"/><use href="#p" x="880"/><use href="#p" x="790" y="24"/></svg>
+<span class="eb">Leonida · Edición 2026</span>
+<h1>Leonida<span>Confidencial</span></h1>
+<p>La guía definitiva de secretos, huevos de Pascua, coches únicos y códigos de GTA 6, con los mínimos spoilers posibles.</p>
+<div class="cta"><a href="#secretos">Explorar secretos</a><a href="#cajas">Ver códigos</a></div>
+<div class="stats"><div><b>15</b><small>Secretos</small></div><div><b>15</b><small>Trucos</small></div><div><b>30</b><small>Coches</small></div><div><b>30</b><small>Códigos</small></div></div>
+</header>
+<nav class="nv"><a href="#secretos">Secretos</a><a href="#coleccionables">Coleccionables</a><a href="#trucos">Trucos</a><a href="#coches">Coches</a><a href="#cajas">Cajas fuertes</a></nav>
+<main>
+<h2 id="secretos">Los secretos</h2>
+<div class="note">Actualizado el 25 de noviembre de 2026, seis días después del lanzamiento. Las ubicaciones exactas varían según la guía, y algunos hallazgos aún se están confirmando. Los marcados como «por confirmar» pueden cambiar.</div>
+<div class="bar">
+<input id="q" type="search" placeholder="Buscar un secreto…" aria-label="Buscar">
+<span id="fs"></span>
+</div>
+<div class="prog" id="prog"></div>
+<div class="grid" id="g"></div>
+
+<h2 id="coleccionables">Coleccionables</h2>
+<ul class="cl">
+<li><b>Relojes coleccionables</b><br>10 desbloquean el truco «Avanzar el tiempo» y 20, «Pausar la hora del día».</li>
+<li><b>24 cartas de los Vice City Flamingos</b><br>Encontrarlas todas desbloquea el filtro Bubblegum.</li>
+<li><b>16 vehículos Girlypop</b><br>Descubrirlos todos desbloquea el filtro Neon Jungle.</li>
+<li><b>Basura espacial</b><br>Escanearla toda con WAiNK desbloquea el filtro Powdered Sugar.</li>
+<li><b>Vender coleccionables</b><br>Ganar 250.000 $ con ellos desbloquea el filtro Pixel Art.</li>
+</ul>
+
+<h2 id="trucos">Trucos</h2>
+<div class="note">Los trucos se desbloquean al completar requisitos y, según las guías, tras terminar la historia. Algunas guías discrepan en el requisito de «250.000 $» (historia o vender mercancía robada) y de «Cambiar clima» (historia o descubrir todo el mapa). Muchos códigos siguen sin verificar, y aquí solo figuran los que se han publicado.</div>
+<div class="tw"><table>
+<tr><th>Truco</th><th>Requisito</th><th>Código (PS5 y Xbox)</th></tr>
+<tr><td>250.000 $</td><td>Terminar la historia o vender mercancía robada</td><td><code>↑ → ↓ ← ↑ ← ↓ →</code></td></tr>
+<tr><td>Concentración ilimitada</td><td>Terminar la historia</td><td><code>↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →</code></td></tr>
+<tr><td>Chaleco antibalas</td><td>100 entrenamientos</td><td><code>↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓</code></td></tr>
+<tr><td>Cambiar clima</td><td>Terminar la historia o revelar el mapa</td><td><code>↓ → ↑ ↓ → ↑ →</code></td></tr>
+<tr><td>Subir nivel de calor</td><td>Perder 25 veces un nivel de 3 estrellas</td><td><code>← ↓ → ↓ ↑ ↓ ↑</code></td></tr>
+<tr><td>Subir nivel de búsqueda</td><td>Perder 50 veces un nivel de 3 estrellas</td><td><code>← ↓ → ↓ ↑ → ↑</code></td></tr>
+<tr><td>Munición máxima</td><td>25 medallas de bronce o mejores en galerías de tiro</td><td><code>↓ ↑ → ↓ ← ← ↑ ↑ ↓ ←</code></td></tr>
+<tr><td>Munición infinita</td><td>25 medallas de plata o mejores</td><td><code>↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↓</code></td></tr>
+<tr><td>Sin recarga</td><td>25 medallas de oro</td><td><code>↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↑</code></td></tr>
+<tr><td>Borracho</td><td>Gastar 2.500 $ en alcohol</td><td><code>↑ ← → ↑ ↑ ← → ↑ ← →</code></td></tr>
+<tr><td>Filtro Faded Glory</td><td>Robar 50 tiendas con tu pareja</td><td><code>↓ ↓ ↑ → → ↑ ← ← ← →</code></td></tr>
+<tr><td>Paracaídas</td><td>50 saltos desde 300 ft o más</td><td>Por confirmar</td></tr>
+<tr><td>Sin daño por caída</td><td>Sobrevivir 20 caídas libres de 40 ft</td><td>Por confirmar</td></tr>
+<tr><td>Reparar vehículo</td><td>Ganar 10 carreras</td><td>Por confirmar</td></tr>
+<tr><td>Nitro ilimitado</td><td>50 saltos acrobáticos</td><td>Por confirmar</td></tr>
+</table></div>
+
+<h2 id="coches">Mapa de coches legendarios por zonas</h2>
+<div class="note">Un mapa con coordenadas exactas aún no existe: las guías indican que nadie ha publicado coordenadas por vehículo, y el número de coches únicos varía según la fuente (entre 85 y 251 localizados). Por eso esto es un mapa por zonas, no a escala, con los coches mejor documentados. Algunos aparecen solo a ciertas horas o tras una misión.</div>
+<ul class="cl">
+<li><b>Vespucci Island</b><br>Maibatsu '97 Penumbra FF (el coche de Paul Walker): garaje de una villa, detrás de un seto en Neptune Circle.<br>Progen Royal Ruby Emerus: garaje a la entrada de la mansión Vespucci.</li>
+<li><b>Hamlet y Vice-Dale</b><br>Bravado Gauntlet Hellfire: fondo del desguace M7, junto a un contenedor rojo.<br>Albany Teniente Manana: desguace Nova Auto, con rastreador.<br>BF Blood Moon Bandito: bajo una carpa al suroeste de Boone Speedway.</li>
+<li><b>Crosstown (Vice City)</b><br>Pegassi Infernus: planta 7 del garaje de la comisaría de Vice-Dale (robarlo implica persecución).</li>
+<li><b>Capri</b><br>Bravado Banshee: Sweetbay Inn, East Buckley Drive (no siempre aparece; prueba de noche).<br>Vapid Red Hot Hustler: esquina del aparcamiento del hotel La Costa.</li>
+<li><b>Peacock Estates / Bay</b><br>Piccia Furia: junto al garaje de la mansión amarilla del extremo sur.<br>Granforma Tsunami Zorrusso: garaje de una mansión al sur.</li>
+<li><b>Ocean Beach</b><br>Granforma Zorrusso: planta baja del garaje de Hathaway Apartments.<br>Pfister Hornet Growler: segunda planta de un aparcamiento, zona central.</li>
+<li><b>Washington Beach</b><br>Pegassi Valiant Tempesta: patio del Vice Museum of Art.</li>
+<li><b>Little Cuba</b><br>Dundreary Cherry Bomb Chino: dentro de la verja del Saber Shipping Yard.</li>
+<li><b>Port Gellhorn</b><br>Walter Ghost Cruiser: homenaje blanco en una carretera.<br>Declasse Beer Nuts Yosemite: jardín de una casa.<br>Vapid Truth &amp; Justice Caracara: lado este del almacén June Warehouse.</li>
+<li><b>Salton</b><br>Imponte Bloodbath Phoenix: bajo un toldo en Slator Towing Inc.</li>
+<li><b>Starfish Island</b><br>Pfister Class Act Comet: entrada de una mansión al suroeste.<br>Anarchist Dominator: planta superior del garaje de Dynamics Fitness, de día.</li>
+<li><b>Key Lento</b><br>Turbo Ruiner: casa al este de la de Jason, de día y sin alarma.</li>
+<li><b>Otras zonas</b><br>Declasse Battler Picador: granero con puertas verdes, sur del condado de Kelly.<br>Vapid Murica Dominator: Ambrosia Raceway Park.<br>Pegassi Vitello: villa cerrada en Waning Sands, Flamingo Parkway.<br>Mamba GT: Leaf Links (la llave está en un cuenco).<br>Pegassi Charred Toros: jardín de una casa de La Perle.</li>
+</ul>
+
+<h2 id="cajas">Cajas fuertes y códigos</h2>
+<div class="note">Códigos recopilados de varias guías. Una de ellas avisa de que algunos pueden variar según la partida; si uno falla, mira la pista del juego. Incluye el nombre de cada lugar, y alguno depende de misiones, así que hay algún spoiler leve.</div>
+<div class="tw"><table>
+<tr><th>Lugar</th><th>Zona</th><th>Código</th></tr>
+<tr><td>Brooks Boatworks</td><td>Port Gellhorn</td><td><code>6823</code></td></tr>
+<tr><td>La Cascara Motel</td><td>Port Gellhorn</td><td><code>6969</code></td></tr>
+<tr><td>Kingpin Bowling</td><td>Port Gellhorn</td><td><code>0300</code></td></tr>
+<tr><td>Delights Cabaret</td><td>Port Gellhorn</td><td><code>2008</code></td></tr>
+<tr><td>Sunrise RV Park</td><td>Cottonmouth Bay / Keys</td><td><code>6769</code></td></tr>
+<tr><td>Casa Guardia</td><td>Little Cuba</td><td><code>1965</code></td></tr>
+<tr><td>Saber Shipping Yard</td><td>Little Cuba</td><td><code>8046</code></td></tr>
+<tr><td>Saber Shipping Facility</td><td>Vice City</td><td><code>1965</code> (una guía dice <code>1122</code>)</td></tr>
+<tr><td>Janjak's Garage</td><td>La Perle</td><td><code>4444</code></td></tr>
+<tr><td>Illegal Sneaker Trade (Drip Drops)</td><td>La Perle</td><td><code>4124</code></td></tr>
+<tr><td>Nova Auto Junkyard</td><td>Hamlet</td><td><code>7777</code></td></tr>
+<tr><td>Palmer Fishing Warehouse</td><td>Watson Bay</td><td><code>1887</code> (otras guías: <code>1886</code>)</td></tr>
+<tr><td>Watson Bay Safehouse</td><td>Watson Bay</td><td><code>1819</code></td></tr>
+<tr><td>Farm Fix Meth Lab</td><td>Ambrosia</td><td><code>2121</code></td></tr>
+<tr><td>Cigar Import (puerta principal)</td><td>Vice City</td><td><code>1426</code></td></tr>
+<tr><td>Leonida Carrier Warehouse</td><td>Balsero</td><td><code>9256</code></td></tr>
+<tr><td>Abandoned Laundry</td><td>Belville</td><td><code>62412</code></td></tr>
+<tr><td>Tráiler de Cottonmouth Lake</td><td>Cottonmouth Lake</td><td><code>44017</code></td></tr>
+<tr><td>Pelican Valley Outpost (caja)</td><td>Pelican Valley</td><td><code>0072</code></td></tr>
+<tr><td>Pelican Valley (puerta del muelle)</td><td>Pelican Valley</td><td><code>0212</code></td></tr>
+<tr><td>Pelican Valley (ordenador)</td><td>Pelican Valley</td><td><code>CLEAVES</code></td></tr>
+<tr><td>Sundown Private Airfield</td><td>Condado de Leonard</td><td><code>3718</code></td></tr>
+<tr><td>Belpoint Shipwreck</td><td>Leonida Keys</td><td><code>4242</code></td></tr>
+<tr><td>Marbelle Hotel</td><td>Crosstown</td><td><code>955214</code></td></tr>
+<tr><td>Slum House</td><td>Vice City</td><td><code>9790</code></td></tr>
+<tr><td>Stormy (trastienda)</td><td>Vice City</td><td><code>7869</code></td></tr>
+<tr><td>Moonstone Boutique (puerta del laboratorio)</td><td>Artist Village, Key Lento</td><td><code>0420</code></td></tr>
+<tr><td>Brian's Lockup (puerta)</td><td>Junto al Isla Tropical Private Club</td><td><code>7700</code></td></tr>
+<tr><td>Garaje del '74 Vamos</td><td>Grayson, condado de Lummox</td><td><code>2727</code></td></tr>
+<tr><td>Garaje de Auntie's Place</td><td>La Perle</td><td><code>92665</code></td></tr>
+</table></div>
+
+<h2>Rumores sin verificar</h2>
+<ul class="r">
+<li>Una conversación en un bar de Mount Chiliad.</li>
+<li>Una matrícula con guiño a Seinfeld.</li>
+<li>Un cangrejo gigante (algunas guías ya lo citan, otras no).</li>
+</ul>
+</main>
+<footer>Leonida Confidencial es una web de fans, no afiliada a Rockstar Games ni a Take-Two.</footer>
+<script>
+var D=[
+{n:"El huevo de Pascua literal",t:"Clásico",l:"Torre de radio del condado de Vice-Dale",d:"Sube hasta arriba (unos 6-7 minutos), coge un huevo del nido y lánzalo para ver una escena corta.",s:"Confirmado"},
+{n:"Skunk Ape (el Bigfoot de Leonida)",t:"Criatura",l:"Lago Cottonmouth, Grassrivers",d:"Aparece comiendo un ciervo en un camino de tierra. Kirk tiene una misión secundaria sobre él, solo de noche.",s:"Confirmado"},
+{n:"Abducción OVNI",t:"Alienígena",l:"Fuera de Port Gellhorn, después de las 2 a. m.",d:"Espera y te abducen. Da el trofeo oculto «The Truth Is Out There».",s:"Confirmado"},
+{n:"Apartamento de Dexter Morgan",t:"Cine y TV",l:"Trinity Apartments, Washington Island",d:"Un edificio con una parte cilíndrica; en la azotea y los muelles hay dos referencias más.",s:"Confirmado"},
+{n:"Sombrero de Arthur Morgan",t:"Rockstar",l:"Venta de garaje, sur de Port Gellhorn",d:"Está sobre una funda de guitarra encima de un sofá, al noroeste del taller Dirt Merchants.",s:"Confirmado"},
+{n:"The Vault, radio secreta",t:"Radio",l:"Club The Vault, centro de Vice City",d:"Busca el póster rojo dentro de la entrada. Emite house, techno y electro underground.",s:"Confirmado"},
+{n:"Cool Dog, el perro en moto de agua",t:"Encuentro",l:"Costas de Leonida",d:"Es un encuentro aleatorio, así que puede que tengas que volver a la zona.",s:"Confirmado"},
+{n:"Lethal by Design",t:"Guiño a GTA IV",l:"Casa de Jason, Key Lento",d:"Una memoria cuyo contenido recuerda a los hechos de GTA IV.",s:"Confirmado"},
+{n:"Revista Body Copy",t:"Guiño a GTA V",l:"Balcón de Jason, junto al gimnasio",d:"Incluye un artículo sobre Fabien LaRouche, el profesor de yoga de Amanda en GTA V.",s:"Confirmado"},
+{n:"Memorial de Fatal Incursion",t:"GTA Online",l:"Suroeste de Key Lento",d:"Una placa junto al agua en honor a la banda de payasos de GTA Online.",s:"Confirmado"},
+{n:"GPS con el mapa de Los Santos",t:"Guiño a GTA V",l:"Barco del jardín de Jason",d:"El GPS muestra el mapa de Los Santos en vez del de Leonida.",s:"Reportado"},
+{n:"Kodak Black",t:"Cameo",l:"Club Jack of Hearts",d:"El rapero aparece como personaje en el local.",s:"Reportado"},
+{n:"Círculo ritual",t:"Oscuro",l:"Almacén abandonado, norte de Capri",d:"Un círculo ritual dibujado en el suelo.",s:"Reportado"},
+{n:"Super Mario Bong",t:"Videojuegos",l:"Condado de Lummox",d:"Una referencia a Super Mario Bros. escondida en la zona.",s:"Reportado"},
+{n:"Código de teclado 2314",t:"Misterio",l:"Instalación de investigación abandonada",d:"El código abre una instalación, pero su ubicación aún no está confirmada.",s:"Por confirmar"}
+];
+var ST={};try{ST=JSON.parse(localStorage.getItem("lc")||"{}")}catch(e){}
+var cat="Todos",cats=["Todos"].concat(D.map(function(x){return x.t}).filter(function(v,i,a){return a.indexOf(v)===i}));
+function save(){try{localStorage.setItem("lc",JSON.stringify(ST))}catch(e){}}
+function esc(s){return s.replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function render(){
+var q=document.getElementById("q").value.toLowerCase(),h="",shown=0;
+D.forEach(function(x,i){
+if(cat!=="Todos"&&x.t!==cat)return;
+if(q&&(x.n+x.l+x.d+x.t).toLowerCase().indexOf(q)<0)return;
+shown++;
+h+='<div class="c'+(ST[i]?" done":"")+'"><span class="tag">'+esc(x.t)+'</span><h3>'+esc(x.n)+'</h3><p class="loc">📍 '+esc(x.l)+'</p><p>'+esc(x.d)+'</p><span class="st">'+esc(x.s)+'</span><label><input type="checkbox" data-i="'+i+'"'+(ST[i]?" checked":"")+'> Ya lo encontré</label></div>'});
+document.getElementById("g").innerHTML=h||"<p>No hay resultados.</p>";
+var n=Object.keys(ST).filter(function(k){return ST[k]}).length;
+document.getElementById("prog").textContent="Has encontrado "+n+" de "+D.length+" secretos.";
+}
+function filters(){
+document.getElementById("fs").innerHTML=cats.map(function(c){return'<button class="f'+(c===cat?" on":"")+'" data-c="'+esc(c)+'">'+esc(c)+'</button>'}).join(" ")}
+document.addEventListener("click",function(e){var c=e.target.getAttribute&&e.target.getAttribute("data-c");if(c){cat=c;filters();render()}});
+document.addEventListener("change",function(e){var i=e.target.getAttribute&&e.target.getAttribute("data-i");if(i!==null&&i!==undefined){ST[i]=e.target.checked;save();render()}});
+document.getElementById("q").addEventListener("input",render);
+filters();render();
+</script>
+</body>
+</html>
